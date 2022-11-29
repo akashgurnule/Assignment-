@@ -2,15 +2,15 @@ let num=10;
  count=0;
     for(i=1;i<=num;i++)
     {
-        if(num%i==1)
+        if(num%i==0)
         {
             count++;
         }
     }
-    if(count<=2)
+    if(count==2)
     {
-        console.log("Yes")
+        console.log("it is a prime number ")
     }
     else{
-        console.log("No")
+        console.log("is not a prime number")
     }
