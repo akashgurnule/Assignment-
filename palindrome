@@ -1,9 +1,9 @@
 str="madam"
  bag="";
-    for(i=N-1;i>=0;i++){
-        bag=str[i]
+    for(i=N-1;i>=0;i--){
+        bag+=str[i]
     }
-    if(bag==str){
+    if(bag===str){
         console.log("It is a palindrome")
     }else{
         console.log("It is not a palindrome")
